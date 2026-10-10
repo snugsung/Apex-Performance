@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apex Performance Step 2a website mockup">
+  <title>Apex Performance | Step 2a Mockup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="topbar">
+      <span>Greenville, SC</span>
+      <span aria-hidden="true">•</span>
+      <span>Adults 18 and up</span>
+      <span aria-hidden="true">•</span>
+      <span>One location, expanding in the future</span>
+    </div>
+
+    <div class="nav-shell">
+      <a class="brand" href="#home" data-view="home" aria-label="Apex Performance home">
+        <img src="assets/Apex_Performance.png" alt="Apex Performance logo">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav">Menu</button>
+
+      <nav id="primaryNav" class="primary-nav" aria-label="Primary navigation">
+        <a href="#home" data-view="home">Home</a>
+        <a href="#classes" data-view="classes">Classes</a>
+        <a href="#membership" data-view="membership">Membership</a>
+        <a href="#about" data-view="about">About</a>
+        <a href="#account" data-view="account">Member Account</a>
+      </nav>
+
+      <form class="site-search" id="siteSearch" role="search">
+        <label for="searchInput" class="sr-only">Search the website</label>
+        <input id="searchInput" name="search" type="search" placeholder="Search classes, memberships, billing..." aria-label="Search the website">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="view active" id="home" data-title="Home">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">APEX PERFORMANCE WEBSITE</p>
+          <h1>Simple, clear access to the information members need.</h1>
+          <p>
+            This rough website design focuses on class schedules, class availability, waitlists,
+            membership information, billing status, and clear contact information for Apex Performance.
+          </p>
+          <div class="button-row">
+            <a class="btn primary" href="#classes" data-view="classes">View Class Schedule</a>
+            <a class="btn secondary" href="#membership" data-view="membership">View Memberships</a>
+          </div>
+          <ul class="hero-points">
+            <li>Responsive on desktop, tablet, and mobile</li>
+            <li>High-contrast, readable, keyboard-friendly layout</li>
+            <li>No merchandise sales on this website</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel" aria-label="Quick highlights">
+          <h2>Quick Highlights</h2>
+          <div class="quick-stat">
+            <strong>Classes offered</strong>
+            <span>Yoga, Pilates, Weightlifting, HIIT, and Zumba</span>
+          </div>
+          <div class="quick-stat">
+            <strong>Account setup</strong>
+            <span>Completed in person with an employee</span>
+          </div>
+          <div class="quick-stat">
+            <strong>Billing</strong>
+            <span>Status shown online; payments handled by a third party</span>
+          </div>
+          <div class="quick-stat">
+            <strong>Membership discounts</strong>
+            <span>Educators, first responders, military, and retirees</span>
+          </div>
+        </aside>
+      </div>
+
+      <section class="section-block">
+        <div class="section-heading">
+          <p class="eyebrow">MAIN WEBSITE FUNCTIONS</p>
+          <h2>What visitors and members can do</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Search and navigation</h3>
+            <p>Use the site search or navigation menu to quickly find classes, memberships, billing status, and About information.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Class availability</h3>
+            <p>See schedules, check whether a class is available or full, and join the waitlist when needed.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Member information</h3>
+            <p>View basic account information and a readable billing status such as On Time or Late Payment.</p>
+          </article>
+          <article class="feature-card">
+            <h3>About Apex</h3>
+            <p>Read about the company, Wendy Rader, and the other four employees who support the gym.</p>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="classes" data-title="Classes">
+      <div class="page-banner">
+        <p class="eyebrow">CLASSES AND AVAILABILITY</p>
+        <h1>Class schedule</h1>
+        <p>Review class times, class availability, and waitlist options.</p>
+      </div>
+
+      <section class="section-block">
+        <div class="toolbar">
+          <div class="toolbar-group" aria-label="Class filters">
+            <span class="filter-chip active">All</span>
+            <span class="filter-chip">Yoga</span>
+            <span class="filter-chip">Pilates</span>
+            <span class="filter-chip">Weightlifting</span>
+            <span class="filter-chip">HIIT</span>
+            <span class="filter-chip">Zumba</span>
+          </div>
+          <p class="small-note">Availability is shown with text labels, not color alone.</p>
+        </div>
+
+        <div class="class-grid">
+          <article class="class-card">
+            <div class="class-meta"><span class="day">Mon</span><span>6:00 PM</span></div>
+            <h3>Yoga</h3>
+            <p>Low-impact class focused on flexibility and movement.</p>
+            <p><strong>Status:</strong> Available</p>
+            <button class="btn compact">View Details</button>
+          </article>
+
+          <article class="class-card">
+            <div class="class-meta"><span class="day">Tue</span><span>5:30 PM</span></div>
+            <h3>Pilates</h3>
+            <p>Core, posture, and controlled movement training.</p>
+            <p><strong>Status:</strong> Full</p>
+            <button class="btn compact secondary">Join Waitlist</button>
+          </article>
+
+          <article class="class-card">
+            <div class="class-meta"><span class="day">Wed</span><span>6:30 PM</span></div>
+            <h3>Weightlifting</h3>
+            <p>Strength-based training with a focus on proper form.</p>
+            <p><strong>Status:</strong> Available</p>
+            <button class="btn compact">View Details</button>
+          </article>
+
+          <article class="class-card">
+            <div class="class-meta"><span class="day">Thu</span><span>6:00 PM</span></div>
+            <h3>HIIT</h3>
+            <p>High-intensity interval training in a small-group format.</p>
+            <p><strong>Status:</strong> Full</p>
+            <button class="btn compact secondary">Join Waitlist</button>
+          </article>
+
+          <article class="class-card">
+            <div class="class-meta"><span class="day">Fri</span><span>5:00 PM</span></div>
+            <h3>Zumba</h3>
+            <p>Music-driven cardio class designed to keep members moving.</p>
+            <p><strong>Status:</strong> Available</p>
+            <button class="btn compact">View Details</button>
+          </article>
+        </div>
+
+        <div class="detail-card">
+          <h2>Class detail example</h2>
+          <p><strong>Class:</strong> Pilates</p>
+          <p><strong>Time:</strong> Tuesday at 5:30 PM</p>
+          <p><strong>Description:</strong> Focuses on core strength, control, and flexibility in a guided group format.</p>
+          <p><strong>Availability:</strong> Full</p>
+          <p><strong>Action:</strong> Add to waitlist</p>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="membership" data-title="Membership">
+      <div class="page-banner alt">
+        <p class="eyebrow">MEMBERSHIPS</p>
+        <h1>Membership information</h1>
+        <p>Clear membership details and requested discount categories.</p>
+      </div>
+
+      <section class="section-block">
+        <div class="two-column">
+          <article class="panel-card">
+            <h2>Membership overview</h2>
+            <p>Apex Performance provides membership information online so current and future members can understand what is offered before visiting the gym.</p>
+            <ul class="body-list">
+              <li>Membership setup is completed in person with an employee.</li>
+              <li>Basic customer information is collected during account setup.</li>
+              <li>Billing status information can be viewed online.</li>
+              <li>No merchandise sales are included on this website.</li>
+            </ul>
+          </article>
+
+          <article class="panel-card">
+            <h2>Discount categories</h2>
+            <div class="tag-list">
+              <span>Educators</span>
+              <span>First Responders</span>
+              <span>Military</span>
+              <span>Retirees</span>
+            </div>
+            <p class="small-note">Questions about signup, payments, and cancellations are handled through staff or the third-party provider.</p>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="about" data-title="About">
+      <div class="page-banner">
+        <p class="eyebrow">ABOUT</p>
+        <h1>About Apex Performance</h1>
+        <p>Apex Performance currently has one location in Greenville, South Carolina and is planning to grow.</p>
+      </div>
+
+      <section class="section-block">
+        <div class="two-column about-layout">
+          <article class="panel-card">
+            <h2>Company background</h2>
+            <ul class="body-list">
+              <li>Client contact: Wendy Rader</li>
+              <li>Location: 100 Main St., Greenville, SC 29605</li>
+              <li>Phone: 1-864-555-2000</li>
+              <li>Current team size: 4 employees</li>
+              <li>Current gym capacity: 20 people</li>
+              <li>Looking to expand as the business grows</li>
+            </ul>
+          </article>
+
+          <article class="panel-card">
+            <h2>Design goals reflected in the mockup</h2>
+            <ul class="body-list">
+              <li>Easy to navigate</li>
+              <li>Visually appealing and professional</li>
+              <li>Fast and secure</li>
+              <li>ADA-conscious color contrast and labeling</li>
+              <li>Responsive across devices</li>
+              <li>Searchable site content</li>
+            </ul>
+          </article>
+        </div>
+
+        <h2 class="subheading">Meet the team</h2>
+        <div class="staff-grid">
+          <article class="staff-card">
+            <span>WR</span>
+            <h3>Wendy Rader</h3>
+            <p>Owner / Client Contact</p>
+          </article>
+          <article class="staff-card">
+            <span>E1</span>
+            <h3>Employee 1</h3>
+            <p>Coach</p>
+          </article>
+          <article class="staff-card">
+            <span>E2</span>
+            <h3>Employee 2</h3>
+            <p>Coach</p>
+          </article>
+          <article class="staff-card">
+            <span>E3</span>
+            <h3>Employee 3</h3>
+            <p>Member Services</p>
+          </article>
+          <article class="staff-card">
+            <span>E4</span>
+            <h3>Employee 4</h3>
+            <p>Operations Support</p>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" id="account" data-title="Member Account">
+      <div class="page-banner compact">
+        <p class="eyebrow">MEMBER ACCOUNT</p>
+        <h1>Basic account information and billing status</h1>
+        <p>This screen is for viewing account details, class-related information, and billing status only.</p>
+      </div>
+
+      <section class="section-block">
+        <div class="account-grid">
+          <article class="panel-card">
+            <h2>Account information</h2>
+            <dl class="info-list">
+              <div><dt>Name</dt><dd>Sample Member</dd></div>
+              <div><dt>Address</dt><dd>Greenville, SC</dd></div>
+              <div><dt>Phone</dt><dd>(864) 555-0188</dd></div>
+              <div><dt>Membership</dt><dd>Active</dd></div>
+            </dl>
+            <p class="small-note">Account creation occurs in person with an Apex Performance employee.</p>
+          </article>
+
+          <article class="panel-card">
+            <h2>Billing status</h2>
+            <p><strong>Status:</strong> On Time</p>
+            <p><strong>Last updated:</strong> October 1, 2026</p>
+            <p>Billing status is viewable on the site, but payment transactions are not processed here.</p>
+            <a class="btn compact secondary" href="#" onclick="return false;">Open Third-Party Billing Provider</a>
+          </article>
+
+          <article class="panel-card">
+            <h2>Support note</h2>
+            <ul class="body-list">
+              <li>Payments are handled by a third-party provider.</li>
+              <li>Cancellations are handled by a third-party provider.</li>
+              <li>No reports or dashboards are shown to members.</li>
+              <li>No merchandise is sold through this site.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Apex Performance</strong>
+      <span>100 Main St., Greenville, SC 29605</span>
+    </div>
+    <div>
+      <span>Phone: 1-864-555-2000</span>
+      <span>Greenville, South Carolina</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
