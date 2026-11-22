@@ -43,10 +43,10 @@ if (menuToggle) {
 }
 
 const searchMap = {
-  classes: ['class', 'classes', 'schedule', 'availability', 'waitlist', 'yoga', 'pilates', 'weightlifting', 'hiit', 'zumba'],
-  membership: ['membership', 'memberships', 'discount', 'discounts', 'educators', 'retirees', 'military', 'first responders'],
-  about: ['about', 'wendy', 'rader', 'employee', 'employees', 'location', 'phone', 'contact'],
-  account: ['account', 'billing', 'payment', 'payments', 'late', 'on time', 'member', 'cancellation', 'cancellations'],
+  classes: ['class', 'classes', 'schedule', 'availability', 'waitlist', 'wait list', 'registration', 'registered', 'trainer', 'trainers', 'yoga', 'pilates', 'weightlifting', 'hiit', 'zumba', 'mobility'],
+  membership: ['subscription', 'subscriptions', 'plan', 'plans', 'membership', 'memberships', 'discount', 'discounts', 'educators', 'retirees', 'military', 'first responders', 'auto-renew', 'annual'],
+  about: ['about', 'wendy', 'rader', 'employee', 'employees', 'trainer specialty', 'location', 'phone', 'contact', 'business'],
+  account: ['account', 'portal', 'billing', 'payment', 'payments', 'member', 'subscription status', 'payment history', 'cancellation', 'cancellations'],
   home: ['home']
 };
 
